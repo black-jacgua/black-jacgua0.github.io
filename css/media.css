@@ -1,0 +1,30 @@
+@media all and (max-device-width: 480px){
+	.portfolio{
+		width: 90%;
+		margin-left: 5%; 
+	}
+	.portfolio .elem{
+		width: 48%;
+		margin-left: 1%;
+		margin-bottom: 2%; 
+	}
+	.parenn .elem{
+		width: 28%;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-top: 4%;
+	}
+
+	#festival .card{
+		width: 48%;
+		margin-bottom: 2%;
+	}
+
+}
+
+@media all and (min-width: 500px) and (max-width: 1024px){
+	#festival .card{
+		width: 31%;
+	}
+
+}

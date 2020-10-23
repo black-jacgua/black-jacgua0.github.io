@@ -1,0 +1,85 @@
+nav{
+	background-color: rgb(255,0,0);
+}
+
+.nav-link{
+	font-family: Chonburi;
+	font-size: 1.1em;
+	color: rgba(10,10,10,0.95);
+	font-weight: bold;
+}
+
+.nav-link:hover{
+	border-bottom: 2px solid white;
+	color: rgb(255,0,0);
+	border-radius: 10%;
+	background-color: rgb(220,200,200);
+}
+
+.portfolio{
+	width: 80%;
+	margin-left: 10%;
+	display: inline-block;
+}
+
+.portfolio .elem{
+	display: inline-block;
+	width: 32%;
+	margin-bottom: 1px;
+}
+
+.parenn{
+	display: inline-block;
+	border: 3px inset red;
+	width: 80%;
+	border-radius: 8%;
+	margin-top: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+	background-color: white;
+	margin-left: 10%
+}
+.parenn .elem{
+	display: inline-block;
+	width: 15%;
+	margin-left: 4%;
+
+}
+
+.parenn .elem img{
+	width: 100%;
+	height: auto;
+}
+
+.foot{
+	margin-top: 5%;
+	padding-top: 3%;
+	background-color: rgba(200,10,10,1);
+	width: 100%;
+	display: block;
+
+}
+
+.foot .text-center .container{
+	display: block;
+	margin-top: 3%;
+}
+
+/*paj festival la*/
+
+
+
+#festival .card{
+	position: relative;
+	width: 18%;
+	display: inline-block;
+	margin-left: 1%;
+	margin-top: 1%;
+
+}
+
+
+.sect{
+	margin-top: 10%;
+}
